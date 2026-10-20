@@ -1,0 +1,13 @@
+{
+  "name": "spotstrat-cloud",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Relay Vercel → API SpotStrat na sua máquina",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "test": "node --test test/proxy.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
