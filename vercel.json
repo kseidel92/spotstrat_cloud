@@ -4,7 +4,7 @@
     "HOME_API_URL": "https://advertiser-arabic-tree-beans.trycloudflare.com"
   },
   "rewrites": [
-    { "source": "/v1/:path*", "destination": "/api/v1/:path*" },
+    { "source": "/v1/(.*)", "destination": "/api/v1" },
     { "source": "/health", "destination": "/api/health" }
   ]
 }

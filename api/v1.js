@@ -1,4 +1,8 @@
-const { proxyRequest } = require('../../lib/proxy');
+const { proxyRequest } = require('../lib/proxy');
+
+module.exports.config = {
+  api: { bodyParser: { sizeLimit: '4mb' } },
+};
 
 module.exports = async (req, res) => {
   try {
