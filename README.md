@@ -21,6 +21,6 @@ A Vercel **não** faz proxy de WebSocket. No front, defina **`VITE_WS_ORIGIN`** 
 ## Local
 
 ```bash
-HOME_API_URL=http://127.0.0.1:4000 npm run dev
+HOME_API_URL=http://127.0.0.1:7171 npm run dev
 curl -s http://127.0.0.1:8787/health
 ```
