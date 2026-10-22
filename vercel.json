@@ -1,7 +1,7 @@
 {
   "version": 2,
   "env": {
-    "HOME_API_URL": "https://thru-renaissance-demonstrated-reception.trycloudflare.com"
+    "HOME_API_URL": "https://filling-sailing-eye-ownership.trycloudflare.com"
   },
   "rewrites": [
     { "source": "/v1/(.*)", "destination": "/api/v1?path=$1" },
