@@ -1,7 +1,7 @@
 {
   "version": 2,
   "env": {
-    "HOME_API_URL": "https://guaranteed-come-congratulations-pharmacology.trycloudflare.com"
+    "HOME_API_URL": "https://serial-consumers-heavily-particles.trycloudflare.com"
   },
   "rewrites": [
     { "source": "/v1/(.*)", "destination": "/api/v1?path=$1" },
