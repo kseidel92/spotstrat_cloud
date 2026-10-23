@@ -1,10 +1,20 @@
 {
   "version": 2,
   "env": {
-    "HOME_API_URL": "https://filling-sailing-eye-ownership.trycloudflare.com"
+    "HOME_API_URL": "https://identifies-columns-led-cheers.trycloudflare.com"
   },
   "rewrites": [
-    { "source": "/v1/(.*)", "destination": "/api/v1?path=$1" },
-    { "source": "/health", "destination": "/api/health" }
+    {
+      "source": "/v1/(.*)",
+      "destination": "/api/v1?path=$1"
+    },
+    {
+      "source": "/health",
+      "destination": "/api/health"
+    },
+    {
+      "source": "/meta",
+      "destination": "/api/meta"
+    }
   ]
 }
