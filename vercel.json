@@ -1,7 +1,7 @@
 {
   "version": 2,
   "env": {
-    "HOME_API_URL": "https://black-such-corrections-towns.trycloudflare.com"
+    "HOME_API_URL": "https://starter-ongoing-approaches-circus.trycloudflare.com"
   },
   "rewrites": [
     {
