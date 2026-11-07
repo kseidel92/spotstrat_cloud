@@ -2,6 +2,7 @@ const { proxyRequest } = require('../lib/proxy');
 
 module.exports.config = {
   api: { bodyParser: { sizeLimit: '4mb' } },
+  maxDuration: 30,
 };
 
 module.exports = async (req, res) => {
