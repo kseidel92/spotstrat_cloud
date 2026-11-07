@@ -1,7 +1,7 @@
 {
   "version": 2,
   "env": {
-    "HOME_API_URL": "https://replies-cold-hints-local.trycloudflare.com"
+    "HOME_API_URL": "https://wishes-armstrong-claims-origins.trycloudflare.com"
   },
   "rewrites": [
     {
