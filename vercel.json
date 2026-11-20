@@ -1,7 +1,7 @@
 {
   "version": 2,
   "env": {
-    "HOME_API_URL": "https://reading-direct-tenant-fotos.trycloudflare.com"
+    "HOME_API_URL": "https://environment-folders-hazardous-vintage.trycloudflare.com"
   },
   "rewrites": [
     {
